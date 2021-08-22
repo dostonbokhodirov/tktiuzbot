@@ -1,0 +1,25 @@
+from aiogram import types
+
+uz_keyboard_structure = types.ReplyKeyboardMarkup(row_width=2, one_time_keyboard=True, resize_keyboard=True)
+uz_keyboard_structure.add("Institut rahbariyati")
+uz_keyboard_structure.row("Fakultetlar", "Kafedralar")
+uz_keyboard_structure.add("Bo‘limlar va markazlar")
+uz_keyboard_structure.row("TKTI Shahrisabz filiali", "TKTI Yangiyer filiali")
+uz_keyboard_structure.add("Yoshlar Ittifoqi", "TKTI qoshidagi akademik litsey")
+uz_keyboard_structure.add("🔝 Bosh menyu")
+
+ru_keyboard_structure = types.ReplyKeyboardMarkup(row_width=2, one_time_keyboard=True, resize_keyboard=True)
+ru_keyboard_structure.add("Руководство института")
+ru_keyboard_structure.row("Факультеты", "Кафедры")
+ru_keyboard_structure.add("Отделения и центры")
+ru_keyboard_structure.row("ТКТИ Шахрисабзский филиал", "ТКТИ Янгиерский филиал")
+ru_keyboard_structure.add("Союз Молодежи", "Академический лицей при ТКТИ")
+ru_keyboard_structure.add("🔝 Главное меню")
+
+en_keyboard_structure = types.ReplyKeyboardMarkup(row_width=2, one_time_keyboard=True, resize_keyboard=True)
+en_keyboard_structure.add("Institute leadership")
+en_keyboard_structure.row("Faculties", "Chairs")
+en_keyboard_structure.add("Departments and centres")
+en_keyboard_structure.row("Shakhrisabz branch of TCTI", "Yangiyer branch of TCTI")
+en_keyboard_structure.add("Youth Union", "Academic lyceum under TCTI")
+en_keyboard_structure.add("🔝 Main menu")

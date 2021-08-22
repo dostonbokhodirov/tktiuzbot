@@ -1,0 +1,25 @@
+from aiogram import types
+
+uz_keyboard_faculty = types.ReplyKeyboardMarkup(row_width=2, one_time_keyboard=True, resize_keyboard=True)
+uz_keyboard_faculty.add("Oziq-ovqat mahsulotlari texnologiyasi fakulteti")
+uz_keyboard_faculty.add("Yoqilg‘i va organik birikmalar kimyoviy texnologiyasi fakulteti")
+uz_keyboard_faculty.add("Noorganik moddalar kimyoviy texnologiyasi fakulteti")
+uz_keyboard_faculty.add("Menejment va kasb ta'limi fakulteti")
+uz_keyboard_faculty.add("Vinochilik texnologiyasi va sanoat uzumchiligi fakulteti")
+uz_keyboard_faculty.row("🔙 Orqaga", "🔝 Bosh menyu")
+
+ru_keyboard_faculty = types.ReplyKeyboardMarkup(row_width=2, one_time_keyboard=True, resize_keyboard=True)
+ru_keyboard_faculty.add("Факультет пищевых технологий")
+ru_keyboard_faculty.add("Факультет химической технологии топлива и органических соединений")
+ru_keyboard_faculty.add("Факультет химической технологии неорганических веществ")
+ru_keyboard_faculty.add("Факультет менеджмента и профессионального образования")
+ru_keyboard_faculty.add("Факультет технологии вина и промышленного виноградарства")
+ru_keyboard_faculty.row("🔙 Назад", "🔝 Главное меню")
+
+en_keyboard_faculty = types.ReplyKeyboardMarkup(row_width=2, one_time_keyboard=True, resize_keyboard=True)
+en_keyboard_faculty.add("Faculty of Food Technology")
+en_keyboard_faculty.add("Faculty of Chemical Technology of Fuels and Organic Compounds")
+en_keyboard_faculty.add("Faculty of Chemical Technology of Inorganic Substances")
+en_keyboard_faculty.add("Faculty of Management and Vocational Education")
+en_keyboard_faculty.add("Faculty of Wine Technology and Industrial Viticulture")
+en_keyboard_faculty.row("🔙 Back", "🔝 Main menu")
