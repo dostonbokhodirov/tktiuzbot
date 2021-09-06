@@ -7,7 +7,10 @@ from loader import dp, bot
 async def get_help(message: types.Message):
     await bot.send_chat_action(message.chat.id, "typing")
     await message.answer(
-        text=f"✍ <b>Taklif va murojaatlaringizni <a href='https://t.me/Ernazarov18'>Davronga</a> yoki <a href='https://t.me/dostonbokhodirov'>Dostonga</a> yozishingiz mumkin.\n\n"
-             f"✍ Вы можете писать свои предложения и обращения <a href='https://t.me/Ernazarov18'>Даврону</a> или <a href='https://t.me/dostonbokhodirov'>Достону</a>.\n\n"
-             f"✍ You can write your suggestions and appeals to <a href='https://t.me/Ernazarov18'>Davron</a> or to <a href='https://t.me/dostonbokhodirov'>Doston</a>.</b>"
+        text=f"<b>Bot yaratuvchisi: @dostonbokhodirov\n"
+             f"Taklif va murojaat uchun: @Ernazarov18\n\n"
+             f"Создатель бота: @dostonbokhodirov\n"
+             f"Для предложений и обращений: @Ernazarov18\n\n"
+             f"Bot creator: @dostonbokhodirov\n"
+             f"For suggestions and appeals: @Ernazarov18</b>\n\n"
     )
